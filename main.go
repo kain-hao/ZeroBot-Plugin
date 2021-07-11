@@ -64,13 +64,13 @@ func main() {
 		"========================================================",
 	) // 启动打印
 	zero.Run(zero.Config{
-		NickName:      []string{"椛椛", "ATRI", "atri", "亚托莉", "アトリ"},
+		NickName:      []string{"Serein"},
 		CommandPrefix: "/",
 
 		// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
 		// []string{}：通过代码写死的方式添加主人账号
 		// os.Args[1:]：通过命令行参数的方式添加主人账号
-		SuperUsers: append([]string{"12345678", "87654321"}, os.Args[1:]...),
+		SuperUsers: append([]string{"2427715746"}, os.Args[1:]...),
 
 		Driver: []zero.Driver{
 			&driver.WSClient{
