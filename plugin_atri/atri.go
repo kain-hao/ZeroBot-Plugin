@@ -16,7 +16,7 @@ var (
 	// ATRI 所有命令的优先级
 	PRIO = -1
 	// ATRI 表情的 GitHub 镜像位置
-	RES = "https://storage.ap-hongkong.pan.jcis.site/bots/"
+	RES = "https://pan-1257373799.cos.ap-hongkong.myqcloud.com/bots/"
 	// ATRI 的总开关
 	ENABLE = true
 )
