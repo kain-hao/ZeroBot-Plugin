@@ -10,7 +10,6 @@ import (
 	// 词库类
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_atri" // ATRI词库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_chat" // 基础词库
-	_ "github.com/Yiwen-Chan/ZeroBot-Plugin/huahua"     //椛椛
 
 	// 实用类
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_github"  // 搜索GitHub仓库
