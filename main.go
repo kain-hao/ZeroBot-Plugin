@@ -10,6 +10,7 @@ import (
 	// 词库类
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_atri" // ATRI词库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_chat" // 基础词库
+	_ "github.com/Yiwen-Chan/ZeroBot-Plugin/huahua"     //椛椛
 
 	// 实用类
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_github"  // 搜索GitHub仓库
@@ -70,7 +71,7 @@ func main() {
 		// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
 		// []string{}：通过代码写死的方式添加主人账号
 		// os.Args[1:]：通过命令行参数的方式添加主人账号
-		SuperUsers: append([]string{"2427715746"}, os.Args[1:]...),
+		SuperUsers: append([]string{"2427715746", "2369717283"}, os.Args[1:]...),
 
 		Driver: []zero.Driver{
 			&driver.WSClient{
